@@ -7,6 +7,7 @@ struct PocketAquariumApp: App {
     @StateObject private var notificationService = NotificationService.shared
     @StateObject private var behaviorEngine = FishBehaviorEngine.shared
     @StateObject private var phoneMonitor = PhoneStateMonitor.shared
+    @StateObject private var animationEngine = AnimationEngine.shared
 
     var body: some Scene {
         WindowGroup {
@@ -16,6 +17,7 @@ struct PocketAquariumApp: App {
                 .environmentObject(notificationService)
                 .environmentObject(behaviorEngine)
                 .environmentObject(phoneMonitor)
+                .environmentObject(animationEngine)
                 .onAppear {
                     setupApp()
                 }

@@ -46,6 +46,11 @@ A complete iOS 17+ SwiftUI app: a virtual pet fish living in your Dynamic Island
 
 ### `Resources/`
 - **`Assets.xcassets/`** — Placeholder asset catalog (needs app icon, accent color, custom fish sprites).
+- **`PocketAquarium.entitlements`** — Code signing entitlements (App Groups for widget data sharing).
+- **`Info.plist`** — App Info.plist used by the Xcode project.
+
+### `APP_STORE_CONNECT.md`
+- App Store Connect setup guide with pricing, IAP config, screenshots list, privacy notes, TestFlight reminders, and a distribution checklist.
 
 ## State Machine
 

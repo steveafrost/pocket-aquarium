@@ -58,14 +58,12 @@ struct BreedingView: View {
             .sheet(isPresented: $showFishPicker1) {
                 FishPickerView(fishList: breedableFish.filter { $0.id != selectedFish2?.id }, title: "Select Parent 1") { fish in
                     selectedFish1 = fish
-                    compatibility = nil
                     showFishPicker1 = false
                 }
             }
             .sheet(isPresented: $showFishPicker2) {
                 FishPickerView(fishList: breedableFish.filter { $0.id != selectedFish1?.id }, title: "Select Parent 2") { fish in
                     selectedFish2 = fish
-                    compatibility = nil
                     showFishPicker2 = false
                 }
             }

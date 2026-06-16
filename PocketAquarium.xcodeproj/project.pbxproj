@@ -7,150 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BLD_3A2B0B70969A4C219566470C /* App/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_84C68FC5F40E48BBB716F944 /* App/ContentView.swift */; };
-		BLD_D433031CF852477D9F6A55BA /* App/PocketAquariumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_2D6B443EB8A047C383B41BE4 /* App/PocketAquariumApp.swift */; };
-		BLD_C5F2B16CAFE041F6B8523FAC /* Models/Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_3777521CBE58450E9968EC25 /* Models/Fish.swift */; };
-		BLD_720D45715A6D407DB7496A3B /* Models/FishMorph.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_177DAB57AC9B42349DEB848A /* Models/FishMorph.swift */; };
-		BLD_B4149E7896D3493F9A879181 /* Models/FishSpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_658D9CD2F6184CB09344A50F /* Models/FishSpecies.swift */; };
-		BLD_B060FDD9353E4E658ABA4E67 /* Models/FishState.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_C67B45C916DC4084B3B83627 /* Models/FishState.swift */; };
-		BLD_1C738E5DFA694C79BB85B095 /* Models/ProUnlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_D7BC2B9ED55E41F2B5EE6401 /* Models/ProUnlockManager.swift */; };
-		BLD_11869E11D9D049CA96BD9AB2 /* Models/Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_69EC720C45974F68ADF683D6 /* Models/Tank.swift */; };
-		BLD_A774F96D1F5C4FA4BF7E5F3B /* Models/TankDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_0B5BC6F346C64C91978A66C0 /* Models/TankDecoration.swift */; };
-		BLD_E95D885BA75C4307B638B703 /* Services/AnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_16FEF1024AC7459BB8808120 /* Services/AnimationEngine.swift */; };
-		BLD_0472CA6789B34D5F88A16929 /* Services/BreedingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_5FD764DEF21F4D3981CEAF1D /* Services/BreedingEngine.swift */; };
-		BLD_42330CBD7A8148F3B7DD2A15 /* Services/DynamicIslandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_E4C2B4A09FB94477A020E7AD /* Services/DynamicIslandManager.swift */; };
-		BLD_462531C7019247A2B3BD579B /* Services/FishBehaviorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_BE748F0F39E547828216D343 /* Services/FishBehaviorEngine.swift */; };
-		BLD_1E2E0A1C24E140E6B10BC0BF /* Services/NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_E4FA757A749E42D3B3043ECC /* Services/NotificationService.swift */; };
-		BLD_6A5AF18C32E44F40A0488BA9 /* Services/PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_C1AD575DF5BF44D88E4C6BDC /* Services/PersistenceService.swift */; };
-		BLD_2B6416ADBF0D4C05AE29D01F /* Services/PhoneStateMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_54BEEFE2D88746259729AECD /* Services/PhoneStateMonitor.swift */; };
-		BLD_C6EBA34491534DE98C626D4B /* Services/StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_EDB46FF67ED74708A0FD5FC7 /* Services/StoreKitManager.swift */; };
-		BLD_4137F22F0F7249F6BA71EA9F /* Services/WidgetDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_6634FDFAE5904B249A615471 /* Services/WidgetDataProvider.swift */; };
-		BLD_E85539E9E7D54781BA9FECF9 /* Views/AquariumMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_A41D1C3C3C0D4461B14F4A42 /* Views/AquariumMainView.swift */; };
-		BLD_715312EEF19E4EB997F6D44E /* Views/BreedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_BF8A2C64233044AFB704584F /* Views/BreedingView.swift */; };
-		BLD_3A22E2543C5F4CE89643607E /* Views/FishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_80E49AF6EE6145EE9539A7E8 /* Views/FishDetailView.swift */; };
-		BLD_7A5E8314601D46279E5D798C /* Views/FishReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_3DAC6B6472F64A2FBB57439A /* Views/FishReactionView.swift */; };
-		BLD_BACA73E29D8E4611AA043F2A /* Views/HatcheryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_81C04A0A2ED344DE876DACBF /* Views/HatcheryView.swift */; };
-		BLD_19493ADBD0EF45EBA03E4E29 /* Views/ProUpgradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_43D6C43BE97244B789273207 /* Views/ProUpgradeView.swift */; };
-		BLD_9737ADEB3FCC437984B1C9EE /* Views/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_51BFC4CD6EDE4A9F97E5EFAF /* Views/SettingsView.swift */; };
-		BLD_8ED4C1F0E08E4DE782AAED02 /* Views/ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_F9F28E95657C4F44A2269D9A /* Views/ShopView.swift */; };
-		BLD_044555F07F654FE5AF4C7DE8 /* Widgets/FishWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_DBF1AA7A776C48DEA9F13D46 /* Widgets/FishWidget.swift */; };
-		BLD_8B918C1DA2024806A4291C05 /* Widgets/WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_F01DA47F9B40412F8D6605A7 /* Widgets/WidgetBundle.swift */; };
+		BLD_BBC4BBCED5F24484AB98F768 /* App/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_62004BD223604A62815BDEA8 /* App/ContentView.swift */; };
+		BLD_BB0A9A26B69542B2BB764726 /* App/PocketAquariumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_12E09AE0672C4AB0B60BDE3A /* App/PocketAquariumApp.swift */; };
+		BLD_12A02F7CAE4241518C1571B0 /* Models/Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_BBD042CE9CA3409F993ABA7B /* Models/Fish.swift */; };
+		BLD_351824574D624DF1A85D4D43 /* Models/FishMorph.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_6692D88CA65D422C892D872E /* Models/FishMorph.swift */; };
+		BLD_D0B0A7DC22D243ADAAA2CA99 /* Models/FishSpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_91F7D5D6154C4A88B8139ECF /* Models/FishSpecies.swift */; };
+		BLD_4ECCE9927CEB4135B7BD436B /* Models/FishState.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_744FCFB3D45649AB8D1514EB /* Models/FishState.swift */; };
+		BLD_17BF95A5B72745B6BA4CC1DC /* Models/ProUnlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_D3850D08677A4BAEBFF283D3 /* Models/ProUnlockManager.swift */; };
+		BLD_68B5212F2AB54886A753E002 /* Models/Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_FA25D3BFD9B74010810D8082 /* Models/Tank.swift */; };
+		BLD_2F8B1DB8701A4F3EB6FF4C65 /* Models/TankDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_49ECE812C72D4A98AE6276D1 /* Models/TankDecoration.swift */; };
+		BLD_CBA7FEF6050C4B14A753E855 /* Services/AnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_37A0545F5B974B2889C16D4A /* Services/AnimationEngine.swift */; };
+		BLD_7A48DA401F804C738C547A9E /* Services/BreedingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_E173B3902D1B488EBA5CB752 /* Services/BreedingEngine.swift */; };
+		BLD_106DFBEE04AF49E18FED40AA /* Services/DynamicIslandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_6970E434D29E40799B021ADB /* Services/DynamicIslandManager.swift */; };
+		BLD_0C3E18E98C334449BB4AB108 /* Services/FishBehaviorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_82D1BA2998834922B46D224F /* Services/FishBehaviorEngine.swift */; };
+		BLD_14460E88507D4FECA4226992 /* Services/NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_47B43E8C9E0D4AA894768889 /* Services/NotificationService.swift */; };
+		BLD_F5562A60EC664EA9A0015F43 /* Services/PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_535D33A1F41C4F698D103430 /* Services/PersistenceService.swift */; };
+		BLD_7E2FE5D744E44C62BC71019F /* Services/PhoneStateMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_A0A372E868054E2A9673F3E6 /* Services/PhoneStateMonitor.swift */; };
+		BLD_BA471F0D0FE94AEB9FBA23B7 /* Services/StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_6F0F529D8E644215846233E9 /* Services/StoreKitManager.swift */; };
+		BLD_4F85CF05E2B74410A7B802A4 /* Services/WidgetDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_1AAB02FA4E0447909B0EC73E /* Services/WidgetDataProvider.swift */; };
+		BLD_32A11289C30141BF954EEFB8 /* Views/AquariumMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_3CF8CA08D2C449429A72487D /* Views/AquariumMainView.swift */; };
+		BLD_0C4DE6C8F730470989B4FDB6 /* Views/BreedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_88501C11A8C74B3E89D801D1 /* Views/BreedingView.swift */; };
+		BLD_85770265F76742F38C8CF7A9 /* Views/FishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_A3BFECC495654106829DFFF2 /* Views/FishDetailView.swift */; };
+		BLD_D56488D8A8A14FA081A8B118 /* Views/FishReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_B2E5024E30CF47FB80316AA2 /* Views/FishReactionView.swift */; };
+		BLD_078801F8A81A41EDA822CC21 /* Views/HatcheryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_5057DC940A934C35A10E18D7 /* Views/HatcheryView.swift */; };
+		BLD_F4BC365026104EA8A643945F /* Views/ProUpgradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_D475819C1D5540DD846C7D02 /* Views/ProUpgradeView.swift */; };
+		BLD_9DF2196651DD46979B66FCB3 /* Views/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_2843FF76C3EF4F80AC2F9AC2 /* Views/SettingsView.swift */; };
+		BLD_F70C8EE2A3214FB4A6AC8506 /* Views/ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_F8873AC007F84B65B709E3C8 /* Views/ShopView.swift */; };
+		BLD_C1EB82E584E340DC9946F91C /* Widgets/FishWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_948DAE0EA90F49098F408B61 /* Widgets/FishWidget.swift */; };
+		BLD_156DB07B7B664532B13E5E5B /* Widgets/WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_D8C21D48866D4EC5AAD31DDD /* Widgets/WidgetBundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		REF_EDEEAB2AD482411FA33A18CA /* .gitignore */ = {isa = PBXFileReference;; lastKnownFileType = text; path = ".gitignore"; sourceTree = "<group>"; };
-		REF_E9D4F63EED064339A0325F29 /* AGENTS.md */ = {isa = PBXFileReference;; lastKnownFileType = text; path = "AGENTS.md"; sourceTree = "<group>"; };
-		REF_84C68FC5F40E48BBB716F944 /* ContentView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_2D6B443EB8A047C383B41BE4 /* PocketAquariumApp.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_3777521CBE58450E9968EC25 /* Fish.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_177DAB57AC9B42349DEB848A /* FishMorph.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_658D9CD2F6184CB09344A50F /* FishSpecies.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_C67B45C916DC4084B3B83627 /* FishState.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_D7BC2B9ED55E41F2B5EE6401 /* ProUnlockManager.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_69EC720C45974F68ADF683D6 /* Tank.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_0B5BC6F346C64C91978A66C0 /* TankDecoration.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_16FEF1024AC7459BB8808120 /* AnimationEngine.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_5FD764DEF21F4D3981CEAF1D /* BreedingEngine.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_E4C2B4A09FB94477A020E7AD /* DynamicIslandManager.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_BE748F0F39E547828216D343 /* FishBehaviorEngine.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_E4FA757A749E42D3B3043ECC /* NotificationService.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_C1AD575DF5BF44D88E4C6BDC /* PersistenceService.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_54BEEFE2D88746259729AECD /* PhoneStateMonitor.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_EDB46FF67ED74708A0FD5FC7 /* StoreKitManager.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_6634FDFAE5904B249A615471 /* WidgetDataProvider.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_A41D1C3C3C0D4461B14F4A42 /* AquariumMainView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_BF8A2C64233044AFB704584F /* BreedingView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_80E49AF6EE6145EE9539A7E8 /* FishDetailView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_3DAC6B6472F64A2FBB57439A /* FishReactionView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_81C04A0A2ED344DE876DACBF /* HatcheryView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_43D6C43BE97244B789273207 /* ProUpgradeView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_51BFC4CD6EDE4A9F97E5EFAF /* SettingsView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_F9F28E95657C4F44A2269D9A /* ShopView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_DBF1AA7A776C48DEA9F13D46 /* FishWidget.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		REF_F01DA47F9B40412F8D6605A7 /* WidgetBundle.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
-		PROD_REF_350712B3D4694515BD4424EF /* PocketAquarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketAquarium.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		REF_827386B3B7B14F60BCE312ED /* .gitignore */ = {isa = PBXFileReference;; lastKnownFileType = text; path = ".gitignore"; sourceTree = "<group>"; };
+		REF_87E155748DCF46EFB1398130 /* AGENTS.md */ = {isa = PBXFileReference;; lastKnownFileType = text; path = "AGENTS.md"; sourceTree = "<group>"; };
+		REF_62004BD223604A62815BDEA8 /* ContentView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_12E09AE0672C4AB0B60BDE3A /* PocketAquariumApp.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_BBD042CE9CA3409F993ABA7B /* Fish.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_6692D88CA65D422C892D872E /* FishMorph.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_91F7D5D6154C4A88B8139ECF /* FishSpecies.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_744FCFB3D45649AB8D1514EB /* FishState.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_D3850D08677A4BAEBFF283D3 /* ProUnlockManager.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_FA25D3BFD9B74010810D8082 /* Tank.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_49ECE812C72D4A98AE6276D1 /* TankDecoration.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_37A0545F5B974B2889C16D4A /* AnimationEngine.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_E173B3902D1B488EBA5CB752 /* BreedingEngine.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_6970E434D29E40799B021ADB /* DynamicIslandManager.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_82D1BA2998834922B46D224F /* FishBehaviorEngine.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_47B43E8C9E0D4AA894768889 /* NotificationService.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_535D33A1F41C4F698D103430 /* PersistenceService.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_A0A372E868054E2A9673F3E6 /* PhoneStateMonitor.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_6F0F529D8E644215846233E9 /* StoreKitManager.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_1AAB02FA4E0447909B0EC73E /* WidgetDataProvider.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_3CF8CA08D2C449429A72487D /* AquariumMainView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_88501C11A8C74B3E89D801D1 /* BreedingView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_A3BFECC495654106829DFFF2 /* FishDetailView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_B2E5024E30CF47FB80316AA2 /* FishReactionView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_5057DC940A934C35A10E18D7 /* HatcheryView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_D475819C1D5540DD846C7D02 /* ProUpgradeView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_2843FF76C3EF4F80AC2F9AC2 /* SettingsView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_F8873AC007F84B65B709E3C8 /* ShopView.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_948DAE0EA90F49098F408B61 /* FishWidget.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_D8C21D48866D4EC5AAD31DDD /* WidgetBundle.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
+		REF_ENTITLEMENTS_AABBCCDDEEFF /* PocketAquarium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Resources/PocketAquarium.entitlements"; sourceTree = "<group>"; };
+		PROD_REF_039092B3947846BC915C292D /* PocketAquarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketAquarium.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		GROUP_MAIN_890CE8B4CB0E4C58A389D2F1 = {
+		GROUP_MAIN_8FB2399327234AB298520FC8 = {
 			isa = PBXGroup;
 			children = (
-				GROUP_CDF3D8D27AA1462B8A428334 /* App */,
-				GROUP_C10BA51213AA48B1B180E4F3 /* Services */,
-				GROUP_CCFA302CDA6943738FC43227 /* Widgets */,
-				GROUP_EBA749C3A624423D805D0C44 /* Models */,
-				GROUP_722E9491B6704E3FBB8DD54A /* Views */,
-				GROUP_PROD_47DE4514178A41259EBE37C1 /* Products */,
+				GROUP_96265E65611343C4B0299D57 /* Services */,
+				GROUP_28B589D5A4434E89863E557E /* Widgets */,
+				GROUP_32AC187C340B4D45ADEF34BE /* App */,
+				GROUP_8EC6DF25B949495B88D269B0 /* Models */,
+				GROUP_CBE1CB968D894D0E94D0A79A /* Views */,
+				GROUP_PROD_6A56A62697814BDD8E18EFBC /* Products */,
+				REF_ENTITLEMENTS_AABBCCDDEEFF /* PocketAquarium.entitlements */,
 			);
 			sourceTree = "<group>";
 		};
-		GROUP_PROD_47DE4514178A41259EBE37C1 = {
+		GROUP_PROD_6A56A62697814BDD8E18EFBC = {
 			isa = PBXGroup;
 			children = (
-				PROD_REF_350712B3D4694515BD4424EF /* PocketAquarium.app */,
+				PROD_REF_039092B3947846BC915C292D /* PocketAquarium.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		GROUP_CDF3D8D27AA1462B8A428334 = {
+		GROUP_96265E65611343C4B0299D57 = {
 			isa = PBXGroup;
 			children = (
-				REF_84C68FC5F40E48BBB716F944 /* ContentView.swift */,
-				REF_2D6B443EB8A047C383B41BE4 /* PocketAquariumApp.swift */,
-			);
-			path = "App";
-			sourceTree = "<group>";
-		};
-		GROUP_C10BA51213AA48B1B180E4F3 = {
-			isa = PBXGroup;
-			children = (
-				REF_16FEF1024AC7459BB8808120 /* AnimationEngine.swift */,
-				REF_5FD764DEF21F4D3981CEAF1D /* BreedingEngine.swift */,
-				REF_E4C2B4A09FB94477A020E7AD /* DynamicIslandManager.swift */,
-				REF_BE748F0F39E547828216D343 /* FishBehaviorEngine.swift */,
-				REF_E4FA757A749E42D3B3043ECC /* NotificationService.swift */,
-				REF_C1AD575DF5BF44D88E4C6BDC /* PersistenceService.swift */,
-				REF_54BEEFE2D88746259729AECD /* PhoneStateMonitor.swift */,
-				REF_EDB46FF67ED74708A0FD5FC7 /* StoreKitManager.swift */,
-				REF_6634FDFAE5904B249A615471 /* WidgetDataProvider.swift */,
+				REF_37A0545F5B974B2889C16D4A /* AnimationEngine.swift */,
+				REF_E173B3902D1B488EBA5CB752 /* BreedingEngine.swift */,
+				REF_6970E434D29E40799B021ADB /* DynamicIslandManager.swift */,
+				REF_82D1BA2998834922B46D224F /* FishBehaviorEngine.swift */,
+				REF_47B43E8C9E0D4AA894768889 /* NotificationService.swift */,
+				REF_535D33A1F41C4F698D103430 /* PersistenceService.swift */,
+				REF_A0A372E868054E2A9673F3E6 /* PhoneStateMonitor.swift */,
+				REF_6F0F529D8E644215846233E9 /* StoreKitManager.swift */,
+				REF_1AAB02FA4E0447909B0EC73E /* WidgetDataProvider.swift */,
 			);
 			path = "Services";
 			sourceTree = "<group>";
 		};
-		GROUP_CCFA302CDA6943738FC43227 = {
+		GROUP_28B589D5A4434E89863E557E = {
 			isa = PBXGroup;
 			children = (
-				REF_DBF1AA7A776C48DEA9F13D46 /* FishWidget.swift */,
-				REF_F01DA47F9B40412F8D6605A7 /* WidgetBundle.swift */,
+				REF_948DAE0EA90F49098F408B61 /* FishWidget.swift */,
+				REF_D8C21D48866D4EC5AAD31DDD /* WidgetBundle.swift */,
 			);
 			path = "Widgets";
 			sourceTree = "<group>";
 		};
-		GROUP_EBA749C3A624423D805D0C44 = {
+		GROUP_32AC187C340B4D45ADEF34BE = {
 			isa = PBXGroup;
 			children = (
-				REF_3777521CBE58450E9968EC25 /* Fish.swift */,
-				REF_177DAB57AC9B42349DEB848A /* FishMorph.swift */,
-				REF_658D9CD2F6184CB09344A50F /* FishSpecies.swift */,
-				REF_C67B45C916DC4084B3B83627 /* FishState.swift */,
-				REF_D7BC2B9ED55E41F2B5EE6401 /* ProUnlockManager.swift */,
-				REF_69EC720C45974F68ADF683D6 /* Tank.swift */,
-				REF_0B5BC6F346C64C91978A66C0 /* TankDecoration.swift */,
+				REF_62004BD223604A62815BDEA8 /* ContentView.swift */,
+				REF_12E09AE0672C4AB0B60BDE3A /* PocketAquariumApp.swift */,
+			);
+			path = "App";
+			sourceTree = "<group>";
+		};
+		GROUP_8EC6DF25B949495B88D269B0 = {
+			isa = PBXGroup;
+			children = (
+				REF_BBD042CE9CA3409F993ABA7B /* Fish.swift */,
+				REF_6692D88CA65D422C892D872E /* FishMorph.swift */,
+				REF_91F7D5D6154C4A88B8139ECF /* FishSpecies.swift */,
+				REF_744FCFB3D45649AB8D1514EB /* FishState.swift */,
+				REF_D3850D08677A4BAEBFF283D3 /* ProUnlockManager.swift */,
+				REF_FA25D3BFD9B74010810D8082 /* Tank.swift */,
+				REF_49ECE812C72D4A98AE6276D1 /* TankDecoration.swift */,
 			);
 			path = "Models";
 			sourceTree = "<group>";
 		};
-		GROUP_722E9491B6704E3FBB8DD54A = {
+		GROUP_CBE1CB968D894D0E94D0A79A = {
 			isa = PBXGroup;
 			children = (
-				REF_A41D1C3C3C0D4461B14F4A42 /* AquariumMainView.swift */,
-				REF_BF8A2C64233044AFB704584F /* BreedingView.swift */,
-				REF_80E49AF6EE6145EE9539A7E8 /* FishDetailView.swift */,
-				REF_3DAC6B6472F64A2FBB57439A /* FishReactionView.swift */,
-				REF_81C04A0A2ED344DE876DACBF /* HatcheryView.swift */,
-				REF_43D6C43BE97244B789273207 /* ProUpgradeView.swift */,
-				REF_51BFC4CD6EDE4A9F97E5EFAF /* SettingsView.swift */,
-				REF_F9F28E95657C4F44A2269D9A /* ShopView.swift */,
+				REF_3CF8CA08D2C449429A72487D /* AquariumMainView.swift */,
+				REF_88501C11A8C74B3E89D801D1 /* BreedingView.swift */,
+				REF_A3BFECC495654106829DFFF2 /* FishDetailView.swift */,
+				REF_B2E5024E30CF47FB80316AA2 /* FishReactionView.swift */,
+				REF_5057DC940A934C35A10E18D7 /* HatcheryView.swift */,
+				REF_D475819C1D5540DD846C7D02 /* ProUpgradeView.swift */,
+				REF_2843FF76C3EF4F80AC2F9AC2 /* SettingsView.swift */,
+				REF_F8873AC007F84B65B709E3C8 /* ShopView.swift */,
 			);
 			path = "Views";
 			sourceTree = "<group>";
@@ -158,43 +160,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		NATIVE_TGT_8ED8F061565D4271B88AA80E = {
+		NATIVE_TGT_35D71D969AC94A7BB484DA7A = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = TGT_CFGL_79AD5A8A57804BACBA2A725B /* Build configuration list for PBXNativeTarget "PocketAquarium" */;
+			buildConfigurationList = TGT_CFGL_0C90871B3CB14B1EAA7D554B /* Build configuration list for PBXNativeTarget "PocketAquarium" */;
 			buildPhases = (
-				SRC_PHASE_45B1639DF71E4337A80DA704,
-				FW_PHASE_B02BFB473FEB465794C7B4DA,
-				RES_PHASE_8D7C840E7A674703A349BA6F,
+				SRC_PHASE_2E8CB775ECBF464C969BE0A6,
+				FW_PHASE_6B6384343F934E67A278CE00,
+				RES_PHASE_D74FA2802E914E419646B132,
 			);
 			buildRules = ();
 			dependencies = ();
 			name = "PocketAquarium";
 			productName = "PocketAquarium";
-			productReference = PROD_REF_350712B3D4694515BD4424EF;
+			productReference = PROD_REF_039092B3947846BC915C292D;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		PROJECT_6A3C198A76B6499DAFA6315F = {
+		PROJECT_F7C900C3C172419893941C7A = {
 			isa = PBXProject;
-			buildConfigurationList = PROJ_CFGL_B6BE383CA16649E194CFBB6C /* Build configuration list for PBXProject "PocketAquarium" */;
+			buildConfigurationList = PROJ_CFGL_C3D6D9745E6B4BC8B6F64B00 /* Build configuration list for PBXProject "PocketAquarium" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = "en";
 			hasScannedForEncodings = 0;
 			knownRegions = ("en", "Base", );
-			mainGroup = GROUP_MAIN_890CE8B4CB0E4C58A389D2F1;
-			productRefGroup = GROUP_PROD_47DE4514178A41259EBE37C1;
+			mainGroup = GROUP_MAIN_8FB2399327234AB298520FC8;
+			productRefGroup = GROUP_PROD_6A56A62697814BDD8E18EFBC;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				NATIVE_TGT_8ED8F061565D4271B88AA80E,
+				NATIVE_TGT_35D71D969AC94A7BB484DA7A,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		RES_PHASE_8D7C840E7A674703A349BA6F = {
+		RES_PHASE_D74FA2802E914E419646B132 = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,45 +206,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		SRC_PHASE_45B1639DF71E4337A80DA704 = {
+		SRC_PHASE_2E8CB775ECBF464C969BE0A6 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BLD_3A2B0B70969A4C219566470C /* App/ContentView.swift in Sources */,
-				BLD_D433031CF852477D9F6A55BA /* App/PocketAquariumApp.swift in Sources */,
-				BLD_C5F2B16CAFE041F6B8523FAC /* Models/Fish.swift in Sources */,
-				BLD_720D45715A6D407DB7496A3B /* Models/FishMorph.swift in Sources */,
-				BLD_B4149E7896D3493F9A879181 /* Models/FishSpecies.swift in Sources */,
-				BLD_B060FDD9353E4E658ABA4E67 /* Models/FishState.swift in Sources */,
-				BLD_1C738E5DFA694C79BB85B095 /* Models/ProUnlockManager.swift in Sources */,
-				BLD_11869E11D9D049CA96BD9AB2 /* Models/Tank.swift in Sources */,
-				BLD_A774F96D1F5C4FA4BF7E5F3B /* Models/TankDecoration.swift in Sources */,
-				BLD_E95D885BA75C4307B638B703 /* Services/AnimationEngine.swift in Sources */,
-				BLD_0472CA6789B34D5F88A16929 /* Services/BreedingEngine.swift in Sources */,
-				BLD_42330CBD7A8148F3B7DD2A15 /* Services/DynamicIslandManager.swift in Sources */,
-				BLD_462531C7019247A2B3BD579B /* Services/FishBehaviorEngine.swift in Sources */,
-				BLD_1E2E0A1C24E140E6B10BC0BF /* Services/NotificationService.swift in Sources */,
-				BLD_6A5AF18C32E44F40A0488BA9 /* Services/PersistenceService.swift in Sources */,
-				BLD_2B6416ADBF0D4C05AE29D01F /* Services/PhoneStateMonitor.swift in Sources */,
-				BLD_C6EBA34491534DE98C626D4B /* Services/StoreKitManager.swift in Sources */,
-				BLD_4137F22F0F7249F6BA71EA9F /* Services/WidgetDataProvider.swift in Sources */,
-				BLD_E85539E9E7D54781BA9FECF9 /* Views/AquariumMainView.swift in Sources */,
-				BLD_715312EEF19E4EB997F6D44E /* Views/BreedingView.swift in Sources */,
-				BLD_3A22E2543C5F4CE89643607E /* Views/FishDetailView.swift in Sources */,
-				BLD_7A5E8314601D46279E5D798C /* Views/FishReactionView.swift in Sources */,
-				BLD_BACA73E29D8E4611AA043F2A /* Views/HatcheryView.swift in Sources */,
-				BLD_19493ADBD0EF45EBA03E4E29 /* Views/ProUpgradeView.swift in Sources */,
-				BLD_9737ADEB3FCC437984B1C9EE /* Views/SettingsView.swift in Sources */,
-				BLD_8ED4C1F0E08E4DE782AAED02 /* Views/ShopView.swift in Sources */,
-				BLD_044555F07F654FE5AF4C7DE8 /* Widgets/FishWidget.swift in Sources */,
-				BLD_8B918C1DA2024806A4291C05 /* Widgets/WidgetBundle.swift in Sources */,
+				BLD_BBC4BBCED5F24484AB98F768 /* App/ContentView.swift in Sources */,
+				BLD_BB0A9A26B69542B2BB764726 /* App/PocketAquariumApp.swift in Sources */,
+				BLD_12A02F7CAE4241518C1571B0 /* Models/Fish.swift in Sources */,
+				BLD_351824574D624DF1A85D4D43 /* Models/FishMorph.swift in Sources */,
+				BLD_D0B0A7DC22D243ADAAA2CA99 /* Models/FishSpecies.swift in Sources */,
+				BLD_4ECCE9927CEB4135B7BD436B /* Models/FishState.swift in Sources */,
+				BLD_17BF95A5B72745B6BA4CC1DC /* Models/ProUnlockManager.swift in Sources */,
+				BLD_68B5212F2AB54886A753E002 /* Models/Tank.swift in Sources */,
+				BLD_2F8B1DB8701A4F3EB6FF4C65 /* Models/TankDecoration.swift in Sources */,
+				BLD_CBA7FEF6050C4B14A753E855 /* Services/AnimationEngine.swift in Sources */,
+				BLD_7A48DA401F804C738C547A9E /* Services/BreedingEngine.swift in Sources */,
+				BLD_106DFBEE04AF49E18FED40AA /* Services/DynamicIslandManager.swift in Sources */,
+				BLD_0C3E18E98C334449BB4AB108 /* Services/FishBehaviorEngine.swift in Sources */,
+				BLD_14460E88507D4FECA4226992 /* Services/NotificationService.swift in Sources */,
+				BLD_F5562A60EC664EA9A0015F43 /* Services/PersistenceService.swift in Sources */,
+				BLD_7E2FE5D744E44C62BC71019F /* Services/PhoneStateMonitor.swift in Sources */,
+				BLD_BA471F0D0FE94AEB9FBA23B7 /* Services/StoreKitManager.swift in Sources */,
+				BLD_4F85CF05E2B74410A7B802A4 /* Services/WidgetDataProvider.swift in Sources */,
+				BLD_32A11289C30141BF954EEFB8 /* Views/AquariumMainView.swift in Sources */,
+				BLD_0C4DE6C8F730470989B4FDB6 /* Views/BreedingView.swift in Sources */,
+				BLD_85770265F76742F38C8CF7A9 /* Views/FishDetailView.swift in Sources */,
+				BLD_D56488D8A8A14FA081A8B118 /* Views/FishReactionView.swift in Sources */,
+				BLD_078801F8A81A41EDA822CC21 /* Views/HatcheryView.swift in Sources */,
+				BLD_F4BC365026104EA8A643945F /* Views/ProUpgradeView.swift in Sources */,
+				BLD_9DF2196651DD46979B66FCB3 /* Views/SettingsView.swift in Sources */,
+				BLD_F70C8EE2A3214FB4A6AC8506 /* Views/ShopView.swift in Sources */,
+				BLD_C1EB82E584E340DC9946F91C /* Widgets/FishWidget.swift in Sources */,
+				BLD_156DB07B7B664532B13E5E5B /* Widgets/WidgetBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FW_PHASE_B02BFB473FEB465794C7B4DA = {
+		FW_PHASE_6B6384343F934E67A278CE00 = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,11 +254,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DEBUG_CFG_8C82EF304058490AA6D36383 = {
+		DEBUG_CFG_40446B54ABC04808AFF4F83F = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "Resources/PocketAquarium.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -279,11 +282,12 @@
 			};
 			name = Debug;
 		};
-		RELEASE_CFG_EB2F25AA20444E6786F31466 = {
+		RELEASE_CFG_16F5D80DA2BC4DF5BF693D63 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "Resources/PocketAquarium.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -309,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		PROJ_CFGL_B6BE383CA16649E194CFBB6C = {
+		PROJ_CFGL_C3D6D9745E6B4BC8B6F64B00 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEBUG_CFG_8C82EF304058490AA6D36383,
-				RELEASE_CFG_EB2F25AA20444E6786F31466,
+				DEBUG_CFG_40446B54ABC04808AFF4F83F,
+				RELEASE_CFG_16F5D80DA2BC4DF5BF693D63,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		TGT_CFGL_79AD5A8A57804BACBA2A725B = {
+		TGT_CFGL_0C90871B3CB14B1EAA7D554B = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEBUG_CFG_8C82EF304058490AA6D36383,
-				RELEASE_CFG_EB2F25AA20444E6786F31466,
+				DEBUG_CFG_40446B54ABC04808AFF4F83F,
+				RELEASE_CFG_16F5D80DA2BC4DF5BF693D63,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = PROJECT_6A3C198A76B6499DAFA6315F /* Project object */;
+	rootObject = PROJECT_F7C900C3C172419893941C7A /* Project object */;
 }
