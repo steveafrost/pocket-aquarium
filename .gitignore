@@ -1,41 +1,20 @@
-# Xcode
-.DS_Store
+## Xcode
 *.xcworkspace/xcuserdata/
-*.xcworkspace/xcshareddata/
 *.xcodeproj/xcuserdata/
 *.xcodeproj/project.xcworkspace/xcuserdata/
-build/
 DerivedData/
-*.ipa
-*.dSYM.zip
-*.dSYM
+*.xcuserstate
 
-# Swift Package Manager
+## Swift Package Manager
 .build/
-Packages/
 Package.resolved
 
-# CocoaPods
-Pods/
-Podfile.lock
-
-# Carthage
-Carthage/
-
-# Fastlane
-fastlane/report.xml
-fastlane/screenshots
-fastlane/test_output
-
-# Environments
-.env
-.env.local
-
-# IDE
-.idea/
+## macOS
+.DS_Store
 *.swp
 *.swo
-*~
 
-# Logs
-*.log
+## Environment
+.env
+.env.local
+*.xcconfig
