@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BLD_PA_ASSETS /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = REF_ASSETS_ASSETCAT /* Assets.xcassets */; };
 		BLD_BBC4BBCED5F24484AB98F768 /* App/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_62004BD223604A62815BDEA8 /* App/ContentView.swift */; };
 		BLD_BB0A9A26B69542B2BB764726 /* App/PocketAquariumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_12E09AE0672C4AB0B60BDE3A /* App/PocketAquariumApp.swift */; };
 		BLD_12A02F7CAE4241518C1571B0 /* Models/Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_BBD042CE9CA3409F993ABA7B /* Models/Fish.swift */; };
@@ -70,6 +71,7 @@
 		REF_D8C21D48866D4EC5AAD31DDD /* WidgetBundle.swift */ = {isa = PBXFileReference;; explicitFileType = sourcecode.swift; fileEncoding = 4; };
 		REF_ENTITLEMENTS_AABBCCDDEEFF /* PocketAquarium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Resources/PocketAquarium.entitlements"; sourceTree = "<group>"; };
 		PROD_REF_039092B3947846BC915C292D /* PocketAquarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketAquarium.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		REF_ASSETS_ASSETCAT /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Resources/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -83,6 +85,7 @@
 				GROUP_CBE1CB968D894D0E94D0A79A /* Views */,
 				GROUP_PROD_6A56A62697814BDD8E18EFBC /* Products */,
 				REF_ENTITLEMENTS_AABBCCDDEEFF /* PocketAquarium.entitlements */,
+				REF_ASSETS_ASSETCAT /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,7 +169,7 @@
 			buildPhases = (
 				SRC_PHASE_2E8CB775ECBF464C969BE0A6,
 				FW_PHASE_6B6384343F934E67A278CE00,
-				RES_PHASE_D74FA2802E914E419646B132,
+				RES_PHASE_PA_ASSETS,
 			);
 			buildRules = ();
 			dependencies = ();
@@ -252,6 +255,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RES_PHASE_PA_ASSETS = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BLD_PA_ASSETS /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		DEBUG_CFG_40446B54ABC04808AFF4F83F = {
