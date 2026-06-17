@@ -102,7 +102,7 @@ struct FishWidgetView: View {
         }
     }
 
-    // MARK: - Medium Widget
+    // MARK: - Medium Widget (with interactive Feed button)
 
     private var mediumWidgetView: some View {
         HStack {
@@ -119,7 +119,7 @@ struct FishWidgetView: View {
             .frame(width: 80)
 
             // Stats
-            VStack(alignment: .leading, spacing: 8) {
+            VStack(alignment: .leading, spacing: 6) {
                 // Happiness
                 HStack {
                     Image(systemName: "heart.fill")
@@ -149,6 +149,27 @@ struct FishWidgetView: View {
                 Text(entry.fishState.emoji + " " + entry.fishState.displayName)
                     .font(.caption2)
                     .foregroundColor(.white.opacity(0.7))
+
+                // Interactive Feed button
+                if #available(iOS 17.0, *) {
+                    Button("Feed", intent: FeedFishIntent())
+                        .buttonStyle(.borderedProminent)
+                        .tint(.orange)
+                        .font(.caption)
+                        .controlSize(.small)
+                } else {
+                    Button(intent: FeedFishIntent()) {
+                        Text("🍕 Feed")
+                            .font(.caption)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 4)
+                            .background(Color.orange)
+                            .cornerRadius(8)
+                    }
+                    .buttonStyle(.plain)
+                }
             }
             .padding(.leading, 8)
         }

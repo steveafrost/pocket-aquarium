@@ -36,6 +36,10 @@
 		BLD_F70C8EE2A3214FB4A6AC8506 /* Views/ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_F8873AC007F84B65B709E3C8 /* Views/ShopView.swift */; };
 		BLD_C1EB82E584E340DC9946F91C /* Widgets/FishWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_948DAE0EA90F49098F408B61 /* Widgets/FishWidget.swift */; };
 		BLD_156DB07B7B664532B13E5E5B /* Widgets/WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_D8C21D48866D4EC5AAD31DDD /* Widgets/WidgetBundle.swift */; };
+		BLD_FEED_INTENT_AA11BB22 /* Intents/FeedFishIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_FEED_INTENT_8A7B6C5D4E3F /* Intents/FeedFishIntent.swift */; };
+		BLD_CHECK_INTENT_CC33DD44 /* Intents/CheckFishIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_CHECK_INTENT_1B2C3D4E5F6A /* Intents/CheckFishIntent.swift */; };
+		BLD_SHORTCUT_INTENT_EE55FF66 /* Intents/AppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_SHORTCUT_INTENT_9A8B7C6D5E4F /* Intents/AppShortcuts.swift */; };
+		BLD_LAUNCH_STORYBOARD_77118899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = REF_LAUNCH_STORYBOARD_0F1E2D3C4B5A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +76,10 @@
 		REF_ENTITLEMENTS_AABBCCDDEEFF /* PocketAquarium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Resources/PocketAquarium.entitlements"; sourceTree = "<group>"; };
 		PROD_REF_039092B3947846BC915C292D /* PocketAquarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketAquarium.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		REF_ASSETS_ASSETCAT /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		REF_FEED_INTENT_8A7B6C5D4E3F /* FeedFishIntent.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = "Intents/FeedFishIntent.swift"; sourceTree = "<group>"; };
+		REF_CHECK_INTENT_1B2C3D4E5F6A /* CheckFishIntent.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = "Intents/CheckFishIntent.swift"; sourceTree = "<group>"; };
+		REF_SHORTCUT_INTENT_9A8B7C6D5E4F /* AppShortcuts.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = "Intents/AppShortcuts.swift"; sourceTree = "<group>"; };
+		REF_LAUNCH_STORYBOARD_0F1E2D3C4B5A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -80,12 +88,14 @@
 			children = (
 				GROUP_96265E65611343C4B0299D57 /* Services */,
 				GROUP_28B589D5A4434E89863E557E /* Widgets */,
+				GROUP_INTENTS_A1B2C3D4E5F6 /* Intents */,
 				GROUP_32AC187C340B4D45ADEF34BE /* App */,
 				GROUP_8EC6DF25B949495B88D269B0 /* Models */,
 				GROUP_CBE1CB968D894D0E94D0A79A /* Views */,
 				GROUP_PROD_6A56A62697814BDD8E18EFBC /* Products */,
 				REF_ENTITLEMENTS_AABBCCDDEEFF /* PocketAquarium.entitlements */,
 				REF_ASSETS_ASSETCAT /* Assets.xcassets */,
+				REF_LAUNCH_STORYBOARD_0F1E2D3C4B5A /* LaunchScreen.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +130,16 @@
 				REF_D8C21D48866D4EC5AAD31DDD /* WidgetBundle.swift */,
 			);
 			path = "Widgets";
+			sourceTree = "<group>";
+		};
+		GROUP_INTENTS_A1B2C3D4E5F6 = {
+			isa = PBXGroup;
+			children = (
+				REF_FEED_INTENT_8A7B6C5D4E3F /* FeedFishIntent.swift */,
+				REF_CHECK_INTENT_1B2C3D4E5F6A /* CheckFishIntent.swift */,
+				REF_SHORTCUT_INTENT_9A8B7C6D5E4F /* AppShortcuts.swift */,
+			);
+			path = "Intents";
 			sourceTree = "<group>";
 		};
 		GROUP_32AC187C340B4D45ADEF34BE = {
@@ -241,6 +261,9 @@
 				BLD_F70C8EE2A3214FB4A6AC8506 /* Views/ShopView.swift in Sources */,
 				BLD_C1EB82E584E340DC9946F91C /* Widgets/FishWidget.swift in Sources */,
 				BLD_156DB07B7B664532B13E5E5B /* Widgets/WidgetBundle.swift in Sources */,
+				BLD_FEED_INTENT_AA11BB22 /* Intents/FeedFishIntent.swift in Sources */,
+				BLD_CHECK_INTENT_CC33DD44 /* Intents/CheckFishIntent.swift in Sources */,
+				BLD_SHORTCUT_INTENT_EE55FF66 /* Intents/AppShortcuts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BLD_PA_ASSETS /* Assets.xcassets in Resources */,
+				BLD_LAUNCH_STORYBOARD_77118899 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
