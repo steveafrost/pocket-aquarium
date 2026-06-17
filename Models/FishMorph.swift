@@ -1,4 +1,5 @@
 import Foundation
+import CoreGraphics
 
 /// Rare color morphs a fish can inherit through breeding
 enum FishMorph: String, Codable, CaseIterable {

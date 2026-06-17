@@ -1,4 +1,5 @@
 import Foundation
+import CoreGraphics
 
 /// Defines a fish species with base properties
 struct FishSpecies: Identifiable, Codable, Hashable {

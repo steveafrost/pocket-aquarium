@@ -6,6 +6,7 @@ struct PocketAquariumApp: App {
     @StateObject private var storeKit = StoreKitManager.shared
     @StateObject private var notificationService = NotificationService.shared
     @StateObject private var behaviorEngine = FishBehaviorEngine.shared
+    @StateObject private var breedingEngine = BreedingEngine.shared
     @StateObject private var phoneMonitor = PhoneStateMonitor.shared
     @StateObject private var animationEngine = AnimationEngine.shared
 
@@ -16,6 +17,7 @@ struct PocketAquariumApp: App {
                 .environmentObject(storeKit)
                 .environmentObject(notificationService)
                 .environmentObject(behaviorEngine)
+                .environmentObject(breedingEngine)
                 .environmentObject(phoneMonitor)
                 .environmentObject(animationEngine)
                 .onAppear {

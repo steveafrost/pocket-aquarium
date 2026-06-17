@@ -1,4 +1,5 @@
 import Foundation
+import CoreGraphics
 
 /// Main fish entity — represents a single virtual fish with its state, mood, and growth
 struct Fish: Identifiable, Codable, Hashable {
